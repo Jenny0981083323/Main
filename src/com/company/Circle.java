@@ -1,17 +1,17 @@
 package com.company;
-
+//this keyword 關鍵字
 public class Circle {
-    private double radius;
+    public double radius;//變數有效範圍
     public Circle(){
-        this(10);
+        this(1.0);//c2
 
     }
-    public  Circle(double myRadius){
+    public  Circle(double myRadius){//c1
         this.radius=myRadius;
 
     }
     public  double computeArea(){
-        return Math.PI*Math.pow(this.radius,2);
+        return Math.PI*Math.pow(this.radius,2);//3.14*radius平方
     }
 
 }
