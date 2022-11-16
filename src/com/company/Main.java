@@ -12,6 +12,8 @@ public class Main {
         Circle c2 = new Circle();
         System.out.println(c2.radius);
         System.out.println(c2.computeArea());
+        System.out.println(c2.PI);//P.15 (5)
+
 
     }
 }
